@@ -17,7 +17,7 @@ This is made to be a course overview using the newer deep learning tools found i
 If you are looking for more machine/deep learning projects other than the ones found in these courses checkout the [following repo](https://github.com/hoftherose/ML_DL_Projects).
 
 # Table of Contents
-1. [Fastai Deep Learning Coursev3 Lesson 1 (Image Classification)](https://course.fast.ai/videos/?lesson=1): Notebook found [here](https://github.com/hoftherose/FastaiV2Course/tree/master/nbs/00_ImageClassification)
+1. [Fastai Deep Learning Coursev3 Lesson 1 (Image Classification)](https://course.fast.ai/videos/?lesson=1): Notebook found [here](https://github.com/hoftherose/FastaiV2Course/tree/master/nbs/00_ImageClassification.ipynb)
 
 # Acknowledgements
 
