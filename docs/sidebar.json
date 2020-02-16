@@ -1,6 +1,13 @@
 {
-  "FastaiV2Course": {
-    "Overview": "/",
-    "Image Classification using Fastaiv2": "/PracticalDeepLearning2019.Lesson1.CourseWork"
-  }
+    "FastaiV2Course": {
+        "Overview": "/"
+    },
+    "Practical Deep Learning 2019": {
+        "": {
+            "Lesson1": {
+                "Course Work": "/PracticalDeepLearning2019.Lesson1.CourseWork",
+                "Course": "/PracticalDeepLearning2019.Lesson1.CourseWork2"
+            }
+        }
+    }
 }
