@@ -9,6 +9,9 @@ entries:
     - output: web,pdf
       title: Overview
       url: /
+    - output: web,pdf
+      title: Image Classification using Fastaiv2
+      url: /PracticalDeepLearning2019.Lesson1.CourseWork
     output: web
     title: FastaiV2Course
   output: web
