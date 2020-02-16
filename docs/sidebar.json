@@ -1,13 +1,6 @@
 {
-    "FastaiV2Course": {
-        "Overview": "/"
-    },
-    "Practical Deep Learning 2019": {
-        "": {
-            "Lesson1": {
-                "Course Work": "/PracticalDeepLearning2019.Lesson1.CourseWork",
-                "Course": "/PracticalDeepLearning2019.Lesson1.CourseWork2"
-            }
-        }
-    }
+  "FastaiV2Course": {
+    "Overview": "/",
+    "Lesson 1": "/PracticalDeepLearning2019.Lesson1"
+  }
 }

@@ -2,9 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"path": "00_PracticalDeepLearning2019.Lesson1.ipynb",
+         "fname": "00_PracticalDeepLearning2019.Lesson1.ipynb",
+         "img": "00_PracticalDeepLearning2019.Lesson1.ipynb",
+         "resized_image": "00_PracticalDeepLearning2019.Lesson1.ipynb",
+         "pat": "00_PracticalDeepLearning2019.Lesson1.ipynb"}
 
-modules = []
+modules = ["PracticalDeepLearning/Lesson1/CourseWork.py"]
 
 doc_url = "https://hoftherose.github.io"
 
