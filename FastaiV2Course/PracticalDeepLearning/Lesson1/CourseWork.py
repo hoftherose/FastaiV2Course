@@ -33,9 +33,3 @@ dblock = DataBlock((ImageBlock,CategoryBlock),
 
 # Cell
 dls = dblock.dataloaders(path_img, bs=4)
-
-dls.show_batch()
-
-# Cell
-import torch
-print(torch.cuda.is_available())
