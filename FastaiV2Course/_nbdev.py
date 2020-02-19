@@ -2,12 +2,12 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"path": "00_PracticalDeepLearning2019.Lesson1.ipynb",
-         "fname": "00_PracticalDeepLearning2019.Lesson1.ipynb",
-         "img": "00_PracticalDeepLearning2019.Lesson1.ipynb",
-         "pat": "00_PracticalDeepLearning2019.Lesson1.ipynb",
-         "dblock": "00_PracticalDeepLearning2019.Lesson1.ipynb",
-         "dls": "00_PracticalDeepLearning2019.Lesson1.ipynb"}
+index = {"path": "PracticalDeepLearning2019.Lesson1.ipynb",
+         "fname": "PracticalDeepLearning2019.Lesson1.ipynb",
+         "img": "PracticalDeepLearning2019.Lesson1.ipynb",
+         "pat": "PracticalDeepLearning2019.Lesson1.ipynb",
+         "dblock": "PracticalDeepLearning2019.Lesson1.ipynb",
+         "dls": "PracticalDeepLearning2019.Lesson1.ipynb"}
 
 modules = ["PracticalDeepLearning/Lesson1/CourseWork.py"]
 
