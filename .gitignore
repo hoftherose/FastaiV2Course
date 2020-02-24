@@ -142,3 +142,4 @@ checklink/cookies.txt
 # weights and biases and tensorboard run folders
 tensorboard/
 wandb/
+*/models/
