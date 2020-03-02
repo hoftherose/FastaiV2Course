@@ -2,14 +2,15 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"path": "PracticalDeepLearning2019.Lesson1.ipynb",
-         "fname": "PracticalDeepLearning2019.Lesson1.ipynb",
+index = {"path": "PracticalDeepLearning2019.Lesson1_Experiments.ipynb",
+         "fname": "PracticalDeepLearning2019.Lesson1_Experiments.ipynb",
          "img": "PracticalDeepLearning2019.Lesson1.ipynb",
-         "pat": "PracticalDeepLearning2019.Lesson1.ipynb",
-         "dblock": "PracticalDeepLearning2019.Lesson1.ipynb",
-         "dls": "PracticalDeepLearning2019.Lesson1.ipynb"}
+         "pat": "PracticalDeepLearning2019.Lesson1_Experiments.ipynb",
+         "dblock": "PracticalDeepLearning2019.Lesson1_Experiments.ipynb",
+         "dls": "PracticalDeepLearning2019.Lesson1_Experiments.ipynb"}
 
-modules = ["PracticalDeepLearning/Lesson1/CourseWork.py"]
+modules = ["PracticalDeepLearning/Lesson1/CourseWork.py",
+           "PracticalDeepLearning/Lesson1/Experiments.py"]
 
 doc_url = "https://hoftherose.github.io"
 
