@@ -13,7 +13,7 @@ entries:
       title: Lesson 1
       url: /PracticalDeepLearning2019.Lesson1
     - output: web,pdf
-      title: Title
+      title: Lesson 2
       url: /PracticalDeepLearning2019.Lesson2
     output: web
     title: FastaiV2Course
