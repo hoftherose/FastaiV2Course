@@ -26,7 +26,7 @@ description: "Image Classification using Fastaiv2"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Imports">Imports<a class="anchor-link" href="#Imports" /></h1>
+<h1 id="Imports">Imports<a class="anchor-link" href="#Imports"> </a></h1>
 </div>
 </div>
 </div>
@@ -43,13 +43,13 @@ description: "Image Classification using Fastaiv2"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Looking-at-the-data">Looking at the data<a class="anchor-link" href="#Looking-at-the-data" /></h1>
+<h1 id="Looking-at-the-data">Looking at the data<a class="anchor-link" href="#Looking-at-the-data"> </a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Getting-the-dataset">Getting the dataset<a class="anchor-link" href="#Getting-the-dataset" /></h2><p>Just like in Lesson 1, we will be using the <a href="http://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/parkhi12a.pdf">Oxford-III3</a> Dataset. In fastaiv2 the syntax is similar, except we can't install everything just by importing fastai. To import untar we need to make sure we are importing <code>fastai.data.all</code> or <code>fastai.data</code>.</p>
+<h2 id="Getting-the-dataset">Getting the dataset<a class="anchor-link" href="#Getting-the-dataset"> </a></h2><p>Just like in Lesson 1, we will be using the <a href="http://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/parkhi12a.pdf">Oxford-III3</a> Dataset. In fastaiv2 the syntax is similar, except we can't install everything just by importing fastai. To import untar we need to make sure we are importing <code>fastai.data.all</code> or <code>fastai.data</code>.</p>
 <p>To get a better idea of how untar looks like, we use the show_doc function from nbdev.
 {% include note.html content='This typically won&#8217;t work for non-fastai functions.' %}</p>
 
@@ -205,7 +205,7 @@ errors defaults to 'strict'.</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Opening-the-files">Opening the files<a class="anchor-link" href="#Opening-the-files" /></h2><p>To get the image files call the get_image_files function. If you have files that aren't images you can use the get_files function and pass the mime file extensions that you are looking for as a parameter.</p>
+<h2 id="Opening-the-files">Opening the files<a class="anchor-link" href="#Opening-the-files"> </a></h2><p>To get the image files call the get_image_files function. If you have files that aren't images you can use the get_files function and pass the mime file extensions that you are looking for as a parameter.</p>
 
 </div>
 </div>
@@ -314,7 +314,7 @@ errors defaults to 'strict'.</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Viewing-the-data-with-labels">Viewing the data with labels<a class="anchor-link" href="#Viewing-the-data-with-labels" /></h2>
+<h2 id="Viewing-the-data-with-labels">Viewing the data with labels<a class="anchor-link" href="#Viewing-the-data-with-labels"> </a></h2>
 </div>
 </div>
 </div>
@@ -450,7 +450,7 @@ errors defaults to 'strict'.</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Learners">Learners<a class="anchor-link" href="#Learners" /></h1><p>Now we will try to build a model that can reliably predict what animal breed is being shown in the image. The state of the art results when this dataset was released back in 2012 was about 60% accuracy, or as we will see later, 40% error. The model that managed to achieve these results was made specifically for pets and had very complicated systems for each micro task.</p>
+<h1 id="Learners">Learners<a class="anchor-link" href="#Learners"> </a></h1><p>Now we will try to build a model that can reliably predict what animal breed is being shown in the image. The state of the art results when this dataset was released back in 2012 was about 60% accuracy, or as we will see later, 40% error. The model that managed to achieve these results was made specifically for pets and had very complicated systems for each micro task.</p>
 <p>To train our model we only need to run the following code. Although it doesn't show it below, fastai chooses what device to run the training on by it's self. If you have a gpu enabled it will automatically grab the first one for training.</p>
 <p>In case you don't know if you have your gpu enabled or not simply check with pytorch running the following code.</p>
 
@@ -558,7 +558,7 @@ print(torch.cuda.is_available())
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Final-Notes">Final Notes<a class="anchor-link" href="#Final-Notes" /></h2><p>It seems that Image Classification with fastai is very straight forward and can achieve good results with just a few lines of code. Even without unfreezing our model we still managed to get almost 74% accuracy, far superior to the state of the art years ago.</p>
+<h2 id="Final-Notes">Final Notes<a class="anchor-link" href="#Final-Notes"> </a></h2><p>It seems that Image Classification with fastai is very straight forward and can achieve good results with just a few lines of code. Even without unfreezing our model we still managed to get almost 74% accuracy, far superior to the state of the art years ago.</p>
 
 </div>
 </div>
